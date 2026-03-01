@@ -11,8 +11,8 @@ freq = 10.1e6    # Hz
 sample_rate = 5_000_000  # Hz
 num_samples = sample_rate * 1
 amp = 1               # 1 = enable antenna power, 0 = disable
-lna_gain = 8          # 0–40 dB
-vga_gain = 8           # 0–62 dB
+lna_gain = 0          # 0–40 dB
+vga_gain = 0           # 0–62 dB
 
 
 main_dir = "/home/cubesat/Cubesat/Proj1/data/iq"
