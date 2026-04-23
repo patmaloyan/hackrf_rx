@@ -15,7 +15,7 @@ lna_gain = 0          # 0–40 dB
 vga_gain = 0           # 0–62 dB
 
 
-main_dir = "/home/cubesat/Cubesat/Proj1/data/iq"
+main_dir = "/home/cubesat/Cubesat/Proj1/rx/rx_checksum"
 timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
 filename_prefix = f"iqdata-{timestamp}"
 outfile = os.path.join(main_dir, filename_prefix + ".dat")
